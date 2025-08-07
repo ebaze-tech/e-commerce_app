@@ -75,7 +75,7 @@ class _CartScreenState extends ConsumerState<CartScreen> {
                                             BorderRadius.circular((8.0))),
                                     child: Center(
                                       child: Text(
-                                        "${product.price}",
+                                        "£${product.price}",
                                         style: const TextStyle(
                                             color: Colors.black,
                                             fontWeight: FontWeight.bold),
@@ -115,7 +115,7 @@ class _CartScreenState extends ConsumerState<CartScreen> {
                             margin:
                                 const EdgeInsets.symmetric(horizontal: 10.0),
                             child: Text(
-                              "Total Price - $total",
+                              "Total Price - £$total",
                               style: const TextStyle(
                                 fontSize: 20.0,
                                 fontWeight: FontWeight.normal,
